@@ -1,7 +1,7 @@
 # Challenge Project: Responsive Club Website
 
 ## Project Goals
-In this Codecademy project, I was tasked to In this project, I was tasked to build my own club group page that will dynamically respond as I adjust the size of my screen.
+In this Codecademy project, I was tasked to build my own club group page that will dynamically respond as I adjust the size of my screen.
 
 ## Description
 I created a responsive homepage for a Studio Ghibli Club. It was quite challenging to figure out, but through some manipulation of the Inspect tool on Google Chrome, I was able to simulate mobile devices with device mode and therefore, adjust all of the elements on the screen dpeending on the size of the screen. 
