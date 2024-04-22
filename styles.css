@@ -1,0 +1,340 @@
+body {
+    color: linen;
+    background-color: darkseagreen;
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    padding-top: 7.8125rem;
+}
+
+/* Header */
+.header-background {
+    background-image: url("https://www.ghibli.jp/gallery/karigurashi001.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+header,section {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+header img {
+    max-height: 7.8125rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: linen;
+}
+
+.menu {
+    display: none;
+}
+
+nav a {
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 1rem;
+    color: linen;
+}
+
+nav a:hover {
+    color: lightcyan;
+}
+
+.logo-title {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* About */
+.about h1 {
+    font-size: 4rem;
+    color: #c46465;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.about h4 {
+    font-size: 1.5rem;
+    color: linen;
+    text-align: justify;
+    font-weight: 500;
+    margin: 0 4rem 3rem 4rem;
+}
+
+.welcome-column .button {
+    cursor: pointer;
+    background-color: #c46465;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: linen;
+}
+
+.about article {
+    width: 40rem;
+}
+
+.about img {
+    max-height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+section h2 {
+    color: #30716f;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.background {
+    padding-bottom: 0.5rem;
+    border-bottom: .5rem solid #30716f;
+}
+
+/* Events */
+article h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+}
+
+.movie-event img {
+    max-width: 16rem;
+}
+
+.movie-event img:hover {
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.movie-text:hover {
+    color: lightcyan;
+    cursor: pointer;
+}
+
+.movie-text h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.movie-text h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+#events .events-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+/* Join the Club */
+article h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+}
+
+.contact-info h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #c46465;
+}
+
+.contact-info h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.contact-info-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 3rem;
+}
+
+.contact-info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.join-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#join {
+    margin-bottom: 5rem;
+}
+
+.enter-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 1rem 8rem 1rem 2rem;
+    background-color: linen;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: start;
+    cursor: text;
+    border-radius: .5rem 0 0 .5rem;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #c46465;
+    padding: 1rem 2rem;
+    border-radius: 0 .5rem .5rem 0;
+    padding: 1rem 2.5rem;
+}
+
+.button:hover {
+    color: lightcyan;
+}
+
+.contact-info-column img {
+    margin-top: 1rem;
+    height: 8rem;
+}
+
+/* Footer */
+.footer-background {
+    background-color: #30716f;
+    width: 100%;
+    height: 4rem;
+}
+
+.footer-background .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* Responsive Changes */
+
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /* Mobile styles go here */
+    .logo-title img {
+        display: none;
+    }
+    
+    nav a {
+        display: none;
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    .menu {
+        display: block;
+        filter: invert(95%) sepia(8%) saturate(874%) hue-rotate(313deg) brightness(105%) contrast(96%);
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    /* Tablet styles go here */
+    .about {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    section,header {
+        padding: 0 3rem;
+    }
+
+    .contact-info {
+        margin-top: 3rem;
+    }
+
+    .input {
+        padding: 1rem 6rem 1rem 2rem;
+    }
+
+    .join-row {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1650px) {
+    /* Desktop styles go here */
+
+    section,header {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
